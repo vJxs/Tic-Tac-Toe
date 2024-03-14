@@ -1,0 +1,37 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(90, 76, 218);
+    color: black;
+}
+.grid{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: rgb(113, 102, 216);
+}
+
+.square{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 76, 218);
+}
+
+svg{
+    stroke: rgb(228, 228, 228);
+    stroke-width: 15px;
+    fill: none;
+}
+
+.cross{
+    stroke: rgb(219, 11, 11);
+    stroke-linecap: round;
+}
